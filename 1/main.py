@@ -33,3 +33,13 @@ print(f'{p2.nome} nasceu no ano de {p2.ano_nascimento()}')
 print(f'{p3.nome} nasceu no ano de {p3.ano_nascimento()}')
 
 print('\n')
+
+p4 = Pessoa.por_ano_nascimento('Maria', 1990)
+print(f'{p4.nome} tem {p4.idade} anos de idade.')
+
+print('\n')
+
+print(Pessoa.gerar())
+print(p1.gerar())
+
+print('\n')
